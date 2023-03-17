@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(pic1.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    
+  }
+
+  body{
+    min-height:500px;
+    width: 100%;
+    background-image: url("https://images.unsplash.com/photo-1587899897387-091ebd01a6b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=913&q=80");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+.Signinbox {
+    width: 420px;
+    height: 730px;
+    background: rgba(0, 0, 0, 0.516);
+    color: #fff;
+    top: 75%;
+    
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    
+  }
+  .logo {
+    width: 130px;
+    height: 130px;
+    /* border-radius: ; */
+    position: absolute;
+    top: -60px;
+    left: calc(45% - 50px);
+    /* right: calc(100% - 50px); */
+  }
+  
+  h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+  }
+  
+   .Signinbox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+  }
+  
+   .Signinbox input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .Signinbox input[type="number"],input[type="email"], input[type="text"],
+  input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+   .Signinbox input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+  }
+  
+   .Signinbox input[type="submit"]:hover {
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+  }
+  
+   .Signinbox a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+  }
+  
+   .Signinbox a:hover {
+    color: #ffc107;
+  }
